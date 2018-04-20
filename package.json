@@ -47,7 +47,7 @@
   },
   "ember-addon": {
     "paths": [
-      "lib/profile-engine",
+      "lib/profile",
       "lib/wall",
       "lib/wall/lib/viewer",
       "lib/wall/lib/host"

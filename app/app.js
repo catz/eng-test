@@ -5,7 +5,7 @@ import config from './config/environment';
 
 // http://ember-engines.com/guide/services
 const engines = {
-  'profile-engine': {
+  profile: {
     dependencies: {
       services: []
     }

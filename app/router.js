@@ -7,7 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.mount('profile-engine', { as: 'profile' });
+  this.mount('profile');
   this.mount('wall');
 });
 
