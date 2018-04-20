@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.mount('profile-engine', { as: 'profile' });
+  this.mount('wall');
 });
 
 export default Router;

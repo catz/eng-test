@@ -32,6 +32,7 @@
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
     "ember-data": "~3.1.0",
+    "ember-engines": "^0.5.18",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-maybe-import-regenerator": "^0.1.6",
@@ -43,5 +44,13 @@
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
+  },
+  "ember-addon": {
+    "paths": [
+      "lib/profile-engine",
+      "lib/wall",
+      "lib/wall/lib/viewer",
+      "lib/wall/lib/host"
+    ]
   }
 }
