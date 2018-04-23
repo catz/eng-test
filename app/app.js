@@ -7,27 +7,27 @@ import config from './config/environment';
 const engines = {
   profile: {
     dependencies: {
-      services: []
+      services: ['app']
     }
   },
   wall: {
     dependencies: {
-      services: []
+      services: ['app']
     }
   },
   viewer: {
     dependencies: {
-      services: [],
+      services: ['app'],
       externalRoutes: {
-        wall: 'wall'
+        wall: 'wall.wall'
       }
     }
   },
   host: {
     dependencies: {
-      services: [],
+      services: ['app'],
       externalRoutes: {
-        wall: 'wall'
+        wall: 'wall.wall'
       }
     }
   }

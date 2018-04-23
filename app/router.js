@@ -8,7 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.mount('profile');
-  this.mount('wall');
+  this.mount('wall', { resetNamespace: true });
 });
 
 export default Router;

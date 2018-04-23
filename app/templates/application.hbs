@@ -1,10 +1,12 @@
-<h1>Root</h1>
+<div class="app-root">
+  <h1>Root container</h1>
 
-<nav>
-  {{#link-to 'profile'}}profile{{/link-to}}&nbsp;|&nbsp;
-  {{#link-to 'wall'}}wall{{/link-to}}&nbsp;|&nbsp;
-</nav>
+  <nav>
+    {{#link-to 'profile'}}Profile engine{{/link-to}}&nbsp;|&nbsp;
+    {{#link-to 'wall.wall' 'user'}}Wall engine{{/link-to}}
+  </nav>
 
-{{modal-dialog}}
+  {{modal-dialog}}
 
-{{outlet}}
+  {{outlet}}
+</div>

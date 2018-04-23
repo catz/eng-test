@@ -1,0 +1,48 @@
+nav {
+  margin-bottom: 10px;
+}
+
+.app-root {
+  background-color: #cac9cc;
+  padding: 10px;
+}
+
+.root-component {
+  background-color: #dee2ac;
+  padding: 10px;
+}
+
+.engine {
+  background-color: #748088;
+  padding: 10px;
+}
+
+.engine2 {
+  background-color: #bab859;
+  padding: 10px;
+}
+
+.engine2 .engine2 {
+  background-color: #ff7560;
+  padding: 10px;
+}
+
+.route1 {
+  background-color: #99a2a8;
+  padding: 10px;
+}
+
+.route2 {
+  background-color: #ccd0d3;
+  padding: 10px;
+}
+
+.shared-component {
+  background-color: #deb841;
+  padding: 10px;
+}
+
+.imported-component {
+  background-color: #7c7a70;
+  padding: 10px;
+}
